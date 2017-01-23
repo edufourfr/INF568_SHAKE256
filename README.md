@@ -11,7 +11,6 @@ This repository hosts my submission for the first project for INF568 @ Ecole po
 
 * **collisions.py** implements a brute force approach to finding collusions on phrases of the form "The secret password is: <some number>". This is the script we use for N=8 and N=16.  
 Time to find collision for N=8: 13.6636s.  
-
 68 collisions are found for N=8.  
 For N=16 the algorithm takes around two hours and finds over 10000 collisions, only some of which are included here.  
 
@@ -24,7 +23,7 @@ Time to find collision for N=32: 5245.8591s.
 Time to find collision for N=32: 59348.9417s.  
 Time to find collision for N=32: 49291.8220s.  
 
-* **collisions3.py** implements Floyd's cycle finding algorithm when the set of messages is *N* predefined lines of text, with the *i* th line being followed by an extra ' ' iff *x* 's *i* th bit is 1, for *x* between 0 and (2^N)-1.This is the script we use for N=40 and N=48.
+* **collisions3.py** implements Floyd's cycle finding algorithm when the set of messages is *N* predefined lines of text, with the *i* th line being followed by an extra ' ' iff *x* 's *i* th bit is 1, for *x* between 0 and (2^N)-1.This is the script we use for N=32.
 ## Computing hashes
 ~~~~
 >>> import shake
