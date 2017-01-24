@@ -23,7 +23,12 @@ Time to find collision for N=32: 5245.8591s.
 Time to find collision for N=32: 59348.9417s.  
 Time to find collision for N=32: 49291.8220s.  
 
-* **collisions3.py** implements Floyd's cycle finding algorithm when the set of messages is *N* predefined lines of text, with the *i* th line being followed by an extra ' ' iff *x* 's *i* th bit is 1, for *x* between 0 and (2^N)-1.This is the script we use for N=32.
+* **collisions3.py** implements Floyd's cycle finding algorithm when the set of messages is *N* predefined lines of text, with the *i* th line being followed by an extra ' ' iff *x* 's *i* th bit is 1, for *x* between 0 and (2^N)-1.This is the script we use for N=32  
+Time to find collision for N=32: 37794.5170s.  
+Time to find collision for N=32: 22826.5792s.  
+Time to find collision for N=32: 42135.4453s.  
+
+
 ## Computing hashes
 ~~~~
 >>> import shake
