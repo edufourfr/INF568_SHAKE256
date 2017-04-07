@@ -35,10 +35,10 @@ if __name__ == "__main__":
     for f in files:
         i=max(i,int(f[3:-2]))
     i+=1
-    f=open("../collisions-"+str(N)+"/ex-"+str(i)+".A",'w')
+    f=open("../collisions-"+str(N)+"/ex-"+str(i)+".first",'w')
     f.write(base+str(prec1))
     f.close()
-    f=open("../collisions-"+str(N)+"/ex-"+str(i)+".B",'w')
+    f=open("../collisions-"+str(N)+"/ex-"+str(i)+".second",'w')
     f.write(base+str(prec2))
     f.close()
 

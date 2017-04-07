@@ -15,10 +15,10 @@ for i in range(2**N):
 i=0
 for l in dico.values():
     if len(l)>1:
-        f=open("../collisions-"+str(N)+"/ex-"+str(i)+".A",'w')
+        f=open("../collisions-"+str(N)+"/ex-"+str(i)+".first",'w')
         f.write(l[0])
         f.close()
-        f=open("../collisions-"+str(N)+"/ex-"+str(i)+".B",'w')
+        f=open("../collisions-"+str(N)+"/ex-"+str(i)+".second",'w')
         f.write(l[1])
         f.close()
         i+=1
